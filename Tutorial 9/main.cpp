@@ -1,5 +1,7 @@
 //**********************************************************************************//
-//Tutirial 9  -  Github                                //   
+//Tutorial 9  -  Github                                                             //
+// Ultima modofocación 29/05/2022                                                   //   
+// Eliminación de cin.get()                                                         //
 //**********************************************************************************//
 //                                                                                  //                    
 // General    > Dir salida:           >  $(SolutionDir)\Bin                         //
@@ -20,11 +22,12 @@
 //**********************************************************************************// 
 
 #include <iostream>
+#include <cstdlib>
 using namespace std;
 
 int main()
 {
 	cout << "Hola Mundo";
-	cin.get();
+	system("pause");
 	return 0;
 }
